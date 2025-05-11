@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic Code Runner</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="start-screen">
+      <h1 class="main-title">COSMIC RUNNER</h1>
+      <p class="instructions">
+        Navigate through the space station to reach the energy checkpoints.
+      </p>
+      <p class="instructions">
+        Use the <span class="key-highlight">←</span> and <span class="key-highlight">→</span> arrow keys to move.
+      </p>
+      <p class="instructions">Press <span class="key-highlight">SPACE</span> or <span class="key-highlight">↑</span> to jump.</p>
+      <p class="instructions">Collect data fragments to increase your score!</p>
+
+      <div class="btn-container">
+        <button class="btn" id="start-btn">LAUNCH MISSION</button>
+      </div>
+    </div>
+
+    <div class="checkpoint-screen">
+      <h2>CHECKPOINT REACHED!</h2>
+      <p>You've successfully reached a power node.</p>
+    </div>
+
+    <div class="pause-screen">
+      <h2>PAUSED</h2>
+      <button class="btn" id="resume-btn">RESUME</button>
+    </div>
+
+    <div class="score-display">SCORE: 0</div>
+    <button class="pause-button">II</button>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
