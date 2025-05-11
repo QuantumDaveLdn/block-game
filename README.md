@@ -41,11 +41,11 @@ A web-based side-scrolling platform game where players navigate through a space 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cosmic-code-runner.git
+git clone https://github.com/yourusername/block-game.git
 ```
 ```bash
 # Navigate to the project directory
-cd cosmic-code-runner
+cd block-game
 ```
 
 # Open index.html in your browser:
@@ -82,7 +82,7 @@ npx http-server
 
 OR
 
-* Visit the GitHub Pages site at: https://quantumdaveldn.github.io/cosmic-code-runner/
+* Visit the GitHub Pages site at: https://quantumdaveldn.github.io/block-game/
 
 ## Technologies Used
 
